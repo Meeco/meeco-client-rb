@@ -7,5 +7,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 Items in this section will be included in the next release.
 
+## [0.0.1] - 2017-12-08
+
 ### Added
 - Created `Meeco::Client` based on the `Meeco` class from the Meeco Middleware (see: https://bitbucket.org/meeco/meeco-demo-middleware/src/06ef4ffb04928de627e0a4eeded2125e8412e93f/app/meeco.rb)

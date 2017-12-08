@@ -1,5 +1,7 @@
 require 'rest-client'
 
+require_relative 'meeco-client-version.rb'
+
 module Meeco
 
   MeecoError = Class.new(StandardError) unless const_defined?(:MeecoError)
@@ -15,8 +17,6 @@ module Meeco
   end
 
   class Client
-
-    VERSION = '0.0.1'
 
     using RestClientRefinements
 

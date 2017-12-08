@@ -1,5 +1,5 @@
 
-require_relative 'lib/meeco-client.rb'
+require_relative 'lib/meeco-client-version.rb'
 
 Gem::Specification.new do |spec|
   spec.name = 'meeco-client'

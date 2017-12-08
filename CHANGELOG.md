@@ -7,6 +7,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 Items in this section will be included in the next release.
 
+### Fixed
+- Moved Meeco::Client::VERSION to separate file to fix gem build error: "There was an error while loading `meeco-client.gemspec`: cannot load such file -- rest-client"
+
 ## [0.0.1] - 2017-12-08
 
 ### Added
